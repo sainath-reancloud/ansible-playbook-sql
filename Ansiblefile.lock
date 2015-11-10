@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/sainath-reancloud/ansible-role-sql.git
   ref: master
-  sha: 30d46a22a2bb64f8380cd2185e07babd8310817d
+  sha: 375f87dafbfbeb5b32badcace8d7525c6db80221
   specs:
     sql_server (0.1)
 
