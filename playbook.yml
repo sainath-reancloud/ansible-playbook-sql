@@ -1,0 +1,12 @@
+---
+
+- name: Add a instance ip
+  hosts: localhost
+  tasks:
+    - name: Add new instance to host group
+      add_host: hostname={{ ip }} groupname=launched
+
+- name: Configure instance(s)
+  hosts: launched
+  roles:
+    - { role: sql_server }

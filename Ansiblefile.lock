@@ -1,0 +1,10 @@
+GIT
+  remote: https://github.com/sainath-reancloud/ansible-role-sql.git
+  ref: master
+  sha: 80496fe8b28763e9e0f60daa4dc340590e34c648
+  specs:
+    sql_server (0.1)
+
+DEPENDENCIES
+  sql_server (>= 0)
+

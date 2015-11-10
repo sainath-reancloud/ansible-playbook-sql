@@ -1,0 +1,2 @@
+role 'sql_server',
+  git: 'https://github.com/sainath-reancloud/ansible-role-sql.git', ref: 'master'
